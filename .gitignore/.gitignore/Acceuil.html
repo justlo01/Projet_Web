@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Projet web </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="header">
+			<h1>Bienvenue</h1>
+
+
+			<ul>
+			  <li><a href="Acceuil.html"> <img src="images/Acceuil.png" alt="Acceuil"> </a></li>
+			  <li><a href="MonProfil.html"> <img src="images/Monprofil.png" alt="Mon profil"> </a></li>
+			  <li><a href="MonPanier.html"> <img src="images/Monpanier.png" alt="Mon panier"> </a></li>
+			  <li><a href="APropos.html"> <img src="images/APropos.png" alt="A propos du site"></a></li>
+			</ul>
+		</div>
+
+
+		<article>
+			<div>
+				<img src="images/amour.png" alt="filtre d'amour">
+			</div>
+			<div>
+				<h1> <strong>Filtre d'amour</strong> </h1>
+				<h3> Ceci rendra la personne voulu amoureuse </h3>
+			</div>
+			<div id="bouton0" class="boutton">
+			  <h1> 
+			    <button class="button btn-primary" v-on:click="++n"><img src="images/ajouter.png" alt="ajouter un produit"></button> {{ n }}
+			  </h1>
+			</div>
+
+		</article>
+
+		<article>
+			<div>
+				<img src="images/courage.png" alt="filtre d'amour">
+			</div>
+			<div>
+				<h1> <strong>Filtre de courage</strong> </h1>
+				<h3> Ceci vous permettra d'affronter vos peurs</h3>
+			</div>
+			<div id="bouton1" class="boutton">
+			  <h1> 
+			    <button class="button btn-primary" v-on:click="++n"><img src="images/ajouter.png" alt="ajouter un produit"></button> {{ n }}
+			  </h1>
+			</div>
+		</article>
+
+		<article>
+			<div>
+				<img src="images/beaute.jpg" alt="filtre d'amour">
+			</div>
+			<div>
+				<h1> <strong>Filtre de beauté</strong> </h1>
+				<h3> Ceci vous d'être aussi beau qu'un dieu</h3>
+			</div>
+			<div id="bouton2" class="boutton">
+			  <h1> 
+			    <button class="button btn-primary" v-on:click="++n"><img src="images/ajouter.png" alt="ajouter un produit"></button> {{ n }}
+			  </h1>
+			</div>
+		</article>
+
+		<article>
+			<div>
+				<img src="images/muscle.jpg" alt="filtre d'amour">
+			</div>
+			<div>
+				<h1> <strong>Filtre de force</strong> </h1>
+				<h3> Ceci vous permettra d'avoir la force d'Ercule</h3>
+			</div>
+			<div id="bouton3" class="boutton">
+			  <h1> 
+			    <button class="button btn-primary" v-on:click="++n"><img src="images/ajouter.png" alt="ajouter un produit"></button> {{ n }}
+			  </h1>
+			</div>
+		</article>
+
+		<article>
+			<div>
+				<img src="images/confiance.png" alt="filtre d'amour">
+			</div>
+			<div>
+				<h1> <strong>Filtre de confiance en soit </strong> </h1>
+				<h3> Ceci vous permettra de reprendre confiance</h3>
+			</div>
+			<div id="bouton4" class="boutton">
+			  <h1> 
+			    <button class="button btn-primary" v-on:click="++n"><img src="images/ajouter.png" alt="ajouter un produit"></button> {{ n }}
+			  </h1>
+			</div>
+		</article>
+
+		<article>
+			<div>
+				<img src="images/prog.jpg" alt="filtre d'amour">
+			</div>
+			<div>
+				<h1> <strong>Filtre de programmation</strong> </h1>
+				<h3> Ceci vous permettra de savoir programmer</h3>
+			</div>
+			<div id="bouton5" class="boutton">
+			  <h1> 
+			    <button class="button btn-primary" v-on:click="++n"><img src="images/ajouter.png" alt="ajouter un produit"></button> {{ n }}
+			  </h1>
+			</div>
+		</article>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
+		<script src="chrono.js"></script>
+
+	</body>
+</html>
